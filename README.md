@@ -30,47 +30,47 @@ Our group created a model in R-Studio that analyzed all pitch data from the 2022
 
 The dataset provided contained the following variables:
 
-•	game_pk: Unique integer that identifies a specific game 
-•	game_date: Game_date in MM/DD/YYYY format 
-•	at_bat_number: Unique integer that identifies a specific plate appearance within a game
-•	pitch_number: Unique integer that identifies a specific pitch within a plate appearance
-•	pitch_type: String identifying the type of pitch thrown. Values are defined here and include:
-o	CH: changeup 
-o	CS, CU: curveball 
-o	EP: eephus 
-o	FA, FF: four-seam fastball 
-o	FC: cutter 
-o	FS: splitter 
-o	KC: knuckle-curve 
-o	KN: knuckle-ball 
-o	SI: sinker 
-o	SL: slider 
-•	pitcher_name: Name of the pitcher in LAST, FIRST format 
-•	pitcher: Unique integer that identifies the pitcher 
-•	batter: Unique integer that identifies the batter 
-•	catcher: Unique integer that identifies the catcher 
-•	description: String that describes the result of the pitch. Either “ball” or “called_strike” 
-•	zone: Unique integer identifying the zone location of the ball when it crosses the plate from the catcher’s perspective (zones one through nine comprise the rulebook strike zone and zones 11-14 signify the area where a pitch should be called a ball) 
-•	stand: One of “L” or “R” corresponding to the handedness of the batter 
-•	p_throws: One of “L” or “R” corresponding to the handedness of the pitcher 
-•	balls: Number of balls in the count at the time of the pitch 
-•	strikes: Number of strikes in the count at the time of the pitch 
-•	plate_x: Horizontal position of the ball when it crosses home plate from the catcher’s perspective (the middle of home plate is the origin; units of feet)
-•	plate_z: Vertical position of the ball when it crosses home plate from the catcher’s perspective (the ground is the origin, units of feet) 
-•	sz_top: The top of the batter’s strike zone set by the operator when the ball is halfway to the plate (units of feet) 
-•	sz_bottom: The bottom of the batter’s strike zone set by the operator when the ball is halfway to the plate (units of feet) 
-•	broadcast: Link to a broadcast video of the pitch 
+-	game_pk: Unique integer that identifies a specific game 
+-	game_date: Game_date in MM/DD/YYYY format 
+-	at_bat_number: Unique integer that identifies a specific plate appearance within a game
+-	pitch_number: Unique integer that identifies a specific pitch within a plate appearance
+-	pitch_type: String identifying the type of pitch thrown. Values are defined here and include:
+  	- CH: changeup 
+  	- CS, CU: curveball 
+  	- EP: eephus 
+  	- FA, FF: four-seam fastball 
+  	- FC: cutter 
+  	- FS: splitter 
+  	- KC: knuckle-curve 
+  	- KN: knuckle-ball 
+  	- SI: sinker 
+  	- SL: slider 
+-	pitcher_name: Name of the pitcher in LAST, FIRST format 
+-	pitcher: Unique integer that identifies the pitcher 
+-	batter: Unique integer that identifies the batter 
+-	catcher: Unique integer that identifies the catcher 
+-	description: String that describes the result of the pitch. Either “ball” or “called_strike” 
+-	zone: Unique integer identifying the zone location of the ball when it crosses the plate from the catcher’s perspective (zones one through nine comprise the rulebook strike zone and zones 11-14 signify the area where a pitch should be called a ball) 
+-	stand: One of “L” or “R” corresponding to the handedness of the batter 
+-	p_throws: One of “L” or “R” corresponding to the handedness of the pitcher 
+-	balls: Number of balls in the count at the time of the pitch 
+-	strikes: Number of strikes in the count at the time of the pitch 
+-	plate_x: Horizontal position of the ball when it crosses home plate from the catcher’s perspective (the middle of home plate is the origin; units of feet)
+-	plate_z: Vertical position of the ball when it crosses home plate from the catcher’s perspective (the ground is the origin, units of feet) 
+-	sz_top: The top of the batter’s strike zone set by the operator when the ball is halfway to the plate (units of feet) 
+-	sz_bottom: The bottom of the batter’s strike zone set by the operator when the ball is halfway to the plate (units of feet) 
+-	broadcast: Link to a broadcast video of the pitch 
 
 Atop these variables, our group created these variables for further help with analysis:
 
-•	balls_plus_strikes: Number of overall pitches in the count at the time of the pitch 
-•	in_strikezone: Whether the pitch in question was in the strike zone (sones 1-8)
-•	same_side: Whether the pitcher had the same stance as the batter (RHP and RHB for example)
-•	abs_value_plate_x: Absolute horizontal position of the ball from home plate (going from the origin, or middle of the plate)
-•	abs_value_plate_z: Absolute vertical position of the ball from home plate (going from the origin, or ground)
-•	plate_z_corrected:  Variable to correct for issued values for height of ball position 
-•	description_binary: Converting description column variables to binary (1 for called_strike and 0 for ball) 
-•	predicted_call: Based purely on zone, whether the pitch should be called a ball or a strike
+-	balls_plus_strikes: Number of overall pitches in the count at the time of the pitch 
+-	in_strikezone: Whether the pitch in question was in the strike zone (sones 1-8)
+-	same_side: Whether the pitcher had the same stance as the batter (RHP and RHB for example)
+-	abs_value_plate_x: Absolute horizontal position of the ball from home plate (going from the origin, or middle of the plate)
+-	abs_value_plate_z: Absolute vertical position of the ball from home plate (going from the origin, or ground)
+-	plate_z_corrected:  Variable to correct for issued values for height of ball position 
+-	description_binary: Converting description column variables to binary (1 for called_strike and 0 for ball) 
+-	predicted_call: Based purely on zone, whether the pitch should be called a ball or a strike
 
 
 
