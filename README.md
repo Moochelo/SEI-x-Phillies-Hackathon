@@ -2,20 +2,28 @@
 
 Competition hosted by the Philadelphia Phillies and SEI. Goal was to make a product that would predict whether the pitch would be a strike or a ball given various categorical and numerical variables.
 
+***
+
 Link to view presentation: [Phillies x Hackathon Presentation.pdf](https://github.com/Moochelo/SEI-x-Phillies-Hackathon/files/15191247/Phillies.x.Hackathon.Presentation.pdf)
 
 ## Name
 
 Michael Mucciolo
 
+***
+
 
 ## Project title
 
 Estimating Strike Probabilities Through Umpire Tendencies
 
+***
+
 ## Group Members
 
 Cara Fredericks, Kale Wiley, Gibson Hurst
+
+***
 
 ***
 
@@ -98,6 +106,8 @@ This model is applicable to the following groups of people for the following rea
     - Engaging with interactive dashboards to track player performance and game trends could show more of the whole picture for those attempting to learn more about the game.
 
 
+***
+
 ## Exploratory Data Analysis
 
 During the exploratory data analysis, the team generated a scatter plot to visualize pitch positions within our makeshift strike zone, defined by the following dimensions: 
@@ -141,11 +151,17 @@ The accuracy test calculated that umpires called balls with 94.9% accuracy over 
 ![image](https://github.com/Moochelo/SEI-x-Phillies-Hackathon/assets/117478032/d1156a41-4642-4b5e-ae2c-c8f13194d64b)
 
 
+
+***
+
+
 ## Regression Model 
 
 
-A loistic regression model was created to determine how significant each vatiable is against umpire call. The regression ran the description variable against every other variable to see what variables were most significant in determining the umpire's call. The analysis revealed that pitches with positive coefficients had a higher chance of being called a strike, pitches on the outside of the strike zone are most likely to be called incorrectly, and higher strike counts at the time of the pitch reduced the likelihood that the pitch would be called a strike.
+A logistic regression model was created to determine how significant each vatiable is against umpire call (the description variable). The analysis revealed that pitches with positive coefficients had a higher chance of being called a strike, pitches on the outside of the strike zone are most likely to be called incorrectly, and higher strike counts at the time of the pitch reduced the likelihood that the pitch would be called a strike.
 
+
+***
 
 ## Cutoff Level 
 
@@ -157,3 +173,18 @@ An accuracy analysis model was developed based off of the logistic regression to
 
 ## Plot Showing a Visual Representation of Relationship Between Cutoff Levels and Accuracy 
 
+
+***
+
+
+## Model Evaluation  
+
+
+A deviance residuals test was conducted to analyze the normality of the residuals for the regression. 
+
+
+![image](https://github.com/Moochelo/SEI-x-Phillies-Hackathon/assets/117478032/40f4ef74-7321-4049-998f-dc72de000de4)
+
+## Deviance Residuals Plot 
+
+It can be seen by the plot that the blue residuals are scattered evenly both above and below the line ay y = 0 (the mean). The residuals above or below 0 show underprediction of the strike or ball call. This even scatter sugests normality amongst the residuals and that the points are evenly distributed. This in turn indicates that the model is unbiased in its predictions and fits the data well.
