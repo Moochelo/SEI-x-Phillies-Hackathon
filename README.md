@@ -222,6 +222,9 @@ In conclusion, this project undertaken for the SEI x Phillies Hackathon competit
 
 ## Instructions for User Implementation
 
+[SEI x Hackathon Code Instructions.pdf](https://github.com/Moochelo/SEI-x-Phillies-Hackathon/files/15193256/SEI.x.Hackathon.Code.Instructions.pdf)
+
+
 Instructions for running code:
 1. Import necessary libraries:
    - library(readxl)
