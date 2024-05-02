@@ -1,4 +1,5 @@
 [Phillies x Hackathon Presentation.pdf](https://github.com/Moochelo/SEI-x-Phillies-Hackathon/files/15191247/Phillies.x.Hackathon.Presentation.pdf)
+
 # SEI-x-Phillies-Hackathon
 
 Competition hosted by the Philadelphia Phillies and SEI. Goal was to make a product that would predict whether the pitch would be a strike or a ball given various categorical and numerical variables.
