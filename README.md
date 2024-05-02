@@ -25,7 +25,6 @@ Cara Fredericks, Kale Wiley, Gibson Hurst
 
 ***
 
-***
 
 ## Project Overview
 
@@ -189,9 +188,13 @@ A deviance residuals test was conducted to analyze the normality of the residual
 
 To evaluate the performance of the logistic regression model a residual plot was created to visually display the relationship between the outcome and the predicted probability of the model. The residual plot shows a line at y=0 as well as residual points which are the difference between the actual call and the probability of that call. The plot shows that the residuals are evenly scattered above as well as below that line (the points are the blue dots and the line is the red line about 0). This is a good indication that the model is on average unbiased in its predictions. If the plot showed points only above or below then it would suggest that the model is underpredicting the probability of either strike or ball. Since this is not the case it is assumed that the model is predicting without bias and fits the data.
 
+***
+
 ## Evaluating the Model with Unseen Data
 
 To test the model’s accuracy, our group used a new pitch data frame and the optimal cutoff level determined from the accuracy analysis. (These variables can be adjusted when running the code, simply input whatever variables you desire and replace them with whatever values are desired).By following this approach, one can adjust the model accordingly and ensure its accuracy for predicting umpire calls, framing the pitch, and knowing what pitches batters should be more susceptible to swing at.
+
+***
 
 
 ## Limitations and Future Directions
@@ -207,9 +210,15 @@ Future directions that can be taken following this competition include:
 - Future models could use tree-based classifiers like Decision Tree or Random Forest (to include a random element and not have the new data build purely off of the old dataset).
 - Future model evaluation could include additional metrics such as F1, Precision, and Recall.
 
+
+***
+
+
 ## Conclusion
 
 In conclusion, this project undertaken for the SEI x Phillies Hackathon competition aimed to estimate the probability of umpire calls for pitches taken in the 2022 Major League Baseball season. The data analysis and modeling uncovered valuable information about umpire tendencies, accuracy, and what factors influence their decisions. Following the creation of a few calculated variables, the exploratory data analysis that was performed revealed significant features for predicting umpire calls. A logistic regression model on the binary variable (description) was created to construct a predictive model that accurately predicts the probability of an umpire call. The application of this model extends beyond umpire call predictions and can help with catcher framing and improving decision making on and off the field. Teams can use this model to identify the types of pitches pitchers are more likely to throw for strikes, optimize catcher positioning for more strike calls, and determine which pitches batters should frequently swing at.
+
+***
 
 ## Instructions for User Implementation
 
@@ -227,6 +236,8 @@ a. baseball_copy <- read_excel("baseball copy.xlsx")
 4. Run Accuracy Analysis (Determining Cutoff Level Code)
 5. Testing model (Run new_pitch data frame code and adjust variables accordingly)
 
+***
+
 
 ## References
 
@@ -234,6 +245,8 @@ Mills, B. M. (2023, October 9). Umpire Analytics. Society for American Baseball 
 
 Palmer, B. (2024, April 10). Believe it or Not, Umpires Are More Accurate Than Ever. Pitcher List. https://pitcherlist.com/believe-it-or-not-umpires-are-more-accurate-than-ever/#:~:text=But%20in%20every%20season%20since,improvement%20between%202008%20and%202023.
 
+
+***
 
 ## Code for Hackacthon Competition
 
