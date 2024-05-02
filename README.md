@@ -99,5 +99,9 @@ The accuracy test calculated that umpires called balls with 94.9% accuracy over 
 ![image](https://github.com/Moochelo/SEI-x-Phillies-Hackathon/assets/117478032/d1156a41-4642-4b5e-ae2c-c8f13194d64b)
 
 
+[Phillies x Hackathon Presentation.pptx](https://github.com/Moochelo/SEI-x-Phillies-Hackathon/files/15191264/Phillies.x.Hackathon.Presentation.pptx)
+
+
+
 
 [Phillies x Hackathon Presentation.pdf](https://github.com/Moochelo/SEI-x-Phillies-Hackathon/files/15191250/Phillies.x.Hackathon.Presentation.pdf)
