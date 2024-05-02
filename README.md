@@ -224,13 +224,11 @@ In conclusion, this project undertaken for the SEI x Phillies Hackathon competit
 
 Instructions for running code:
 1. Import necessary libraries:
-   
 a. library(readxl)
 b. library(dplyr)
 c. library(tidyr)
 d. library(ggplot2)
-
-2.Import Dataset (We kept the name the same):
+2. Import Dataset (We kept the name the same):
 a. baseball_copy <- read_excel("baseball copy.xlsx")
 3. Run regression code 
 4. Run Accuracy Analysis (Determining Cutoff Level Code)
