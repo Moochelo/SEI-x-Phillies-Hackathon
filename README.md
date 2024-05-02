@@ -79,10 +79,10 @@ Atop these variables, our group created these variables for further help with an
 
 ## Audience and Application
 
-This project is applicable to the following groups of people for the following reasons:
+This model is applicable to the following groups of people for the following reasons:
 
 - Baseball Teams and Coaches:
-  - Utilize strike probability models for optimized player performance and strategy during games.
+  - tilize strike probability models for optimized player performance and strategy during games.
     - Enhance catcher framing techniques and pitcher effectiveness based on predicted strike probabilities.
 - Umpires and Officiating Organizations:
   - Gain insights into umpire tendencies and decision-making processes.
