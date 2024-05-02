@@ -30,8 +30,8 @@ Our group created a model in R-Studio that analyzed all pitch data from the 2022
 
 The dataset provided contained the following variables:
 
-game_pk: Unique integer that identifies a specific game 
-Game_date: Game_date in MM/DD/YYYY format 
+- game_pk: Unique integer that identifies a specific game 
+- Game_date: Game_date in MM/DD/YYYY format 
 at_bat_number: Unique integer that identifies a specific plate appearance within a game
 pitch_number: Unique integer that identifies a specific pitch within a plate appearance
 pitch_type: String identifying the type of pitch thrown. Values are defined here and include:
