@@ -228,7 +228,7 @@ Instructions for running code:
    - library(dplyr)
    - library(tidyr)
    - library(ggplot2)
-3. Import Dataset (We kept the name the same):
+3. Import Dataset (Kept name the same):
    - baseball_copy <- read_excel("baseball copy.xlsx")
 5. Run regression code 
 6. Run Accuracy Analysis (Determining Cutoff Level Code)
