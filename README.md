@@ -141,6 +141,19 @@ The accuracy test calculated that umpires called balls with 94.9% accuracy over 
 ![image](https://github.com/Moochelo/SEI-x-Phillies-Hackathon/assets/117478032/d1156a41-4642-4b5e-ae2c-c8f13194d64b)
 
 
-## Model Development
+## Regression Model 
 
-Noticeable from the plot, the majority of called strikes align with the boundaries of our constructed strike zone plot. To further analyze how many of the pitches called by umpires were within the supposed strike zone however, an accuracy test was completed.
+
+A loistic regression model was created to determine how significant each vatiable is against umpire call. The regression ran the description variable against every other variable to see what variables were most significant in determining the umpire's call. The analysis revealed that pitches with positive coefficients had a higher chance of being called a strike, pitches on the outside of the strike zone are most likely to be called incorrectly, and higher strike counts at the time of the pitch reduced the likelihood that the pitch would be called a strike.
+
+
+## Cutoff Level 
+
+
+An accuracy analysis model was developed based off of the logistic regression to test the model with new or unseen data. Levels of 0.1 to 0.9 were used for the cutoff levels and this helped improve overall model accuracy as a result. (Lower cutoff level means more false positives and fewer false negatives and higher cutoff level could lead to fewer false positives and more false negatives). Accuracy was calculated from the model based on whether the pitch was called a strike or a ball.
+
+
+![image](https://github.com/Moochelo/SEI-x-Phillies-Hackathon/assets/117478032/09339ce6-42cf-46cd-a241-e9b3fba3c87b)
+
+## Plot Showing a Visual Representation of Relationship Between Cutoff Levels and Accuracy 
+
