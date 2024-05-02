@@ -265,9 +265,7 @@ library(ggplot2)
 
 baseball_copy <- read_excel("baseball copy.xlsx")
 
-# Create scatterplot of all pitches in dataset 
-# (using makeshift strikezone to visualize where 
-# each pitch has landed and whether it is in the strikezone)
+#Create scatterplot of all pitches in dataset (using makeshift strikezone to visualize where each pitch has landed and whether it is in the strikezone)
 
 set.seed(42)  
 sampled_data <- baseball_copy[sample(nrow(baseball_copy), 2000), ]
@@ -279,7 +277,7 @@ right_boundary <- ((17/12)/2)
 
 call_colors <- c("ball" = "red", "called_strike" = "blue")
 
-# Plotting pitch positions (makeshift strike zone)
+#Plotting pitch positions (makeshift strike zone)
 plot(sampled_data$plate_x,
      sampled_data$plate_z,
      pch = 20,
@@ -301,10 +299,10 @@ legend("topright",
        fill = legend_colors)
 
 
-# Analyze how accurate umpires are in calling pitches strikes or balls 
-# (purely based on the zone the ball is in when the pitch reaches the plate)
+#Analyze how accurate umpires are in calling pitches strikes or balls 
+#(purely based on the zone the ball is in when the pitch reaches the plate)
 
-# Defining strike zone
+### Defining strike zone
 strike_zones <- 1:9
 ball_zones <- 11:14
 
