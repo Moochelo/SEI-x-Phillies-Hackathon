@@ -95,6 +95,6 @@ Noticeable from the plot, the majority of called strikes align with the boundari
 
 The accuracy test calculated that umpires called balls with 94.9% accuracy over the course of the season. While umpires called strikes with 86.3% accuracy. These results are displayed graphically in the “Comparison of Description vs Actual Pitch Location” chart. This tells us that overall, umpires do a good job of judging strikes and balls from behind the plate. The discrepancy in accuracy between strike and ball accuracy can be explained through the fact that balls are easier to call. For example if a pitch is thrown into the dirt or way outside the strike zone up or from left to right it is easy for an umpire to declare that pitch a ball. The strike zone is a little different in that a lot of the time pitchers are good at “painting the corners” which means they can effectively throw the ball in a place which is difficult for the batter to hit as well as making the margin between strike and ball more difficult to discern for umpires.
 
-![image](https://github.com/Moochelo/SEI-x-Phillies-Hackathon/assets/117478032/2ff03758-4936-4e4c-b0b1-4bae5a3bb711)
+![image](https://github.com/Moochelo/SEI-x-Phillies-Hackathon/assets/117478032/5f63bfe9-997d-4594-8da3-e7479485cfe2)
 
 
