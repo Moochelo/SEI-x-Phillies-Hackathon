@@ -1,6 +1,6 @@
-[Phillies x Hackathon Presentation.pdf](https://github.com/Moochelo/SEI-x-Phillies-Hackathon/files/15191247/Phillies.x.Hackathon.Presentation.pdf)
-
 # SEI-x-Phillies-Hackathon
+
+Link to view presentation: [Phillies x Hackathon Presentation.pdf](https://github.com/Moochelo/SEI-x-Phillies-Hackathon/files/15191247/Phillies.x.Hackathon.Presentation.pdf)
 
 Competition hosted by the Philadelphia Phillies and SEI. Goal was to make a product that would predict whether the pitch would be a strike or a ball given various categorical and numerical variables.
 
@@ -77,6 +77,29 @@ Atop these variables, our group created these variables for further help with an
 ***
 
 
+## Audience and Application
+
+This project is applicable to the following groups of people for the following reasons:
+
+- Baseball Teams and Coaches:
+  - Utilize strike probability models for optimized player performance and strategy during games.
+    - Enhance catcher framing techniques and pitcher effectiveness based on predicted strike probabilities.
+- Umpires and Officiating Organizations:
+  - Gain insights into umpire tendencies and decision-making processes.
+    - Enhance consistency and accuracy in calling pitches by understanding factors influencing strike calls.
+- Analytics Departments and Data Scientists:
+  - Leverage strike probability models for advanced statistical analysis and player evaluation.
+    - Develop innovative strategies and metrics for competitive edge in recruitment and game tactics.
+- Broadcasters and Media Outlets:
+  - Enhance live game coverage with real-time insights into pitch outcomes and strike probabilities.
+    - Enrich post-game analysis with data-driven narratives and visualizations.
+- Baseball Fans and Enthusiasts:
+  - Deepen understanding and appreciation of the game through exploring pitch dynamics and umpire decisions.
+    - Engage with interactive dashboards to track player performance and game trends.
+
+
+
+
 ## Exploratory Data Analysis
 
 During the exploratory data analysis, the team generated a scatter plot to visualize pitch positions within our makeshift strike zone, defined by the following dimensions: 
@@ -92,12 +115,14 @@ This plot illustrated both accuracy of umpire calls for strikes and the areas wh
 
 
 Noticeable from the plot, the majority of called strikes align with the boundaries of our constructed strike zone plot. To further analyze how many of the pitches called by umpires were within the supposed strike zone however, an accuracy test was completed.
+
                
 ![image](https://github.com/Moochelo/SEI-x-Phillies-Hackathon/assets/117478032/c0e46f91-241f-4d13-aa51-a901aa0c32ce)
 
 
-The accuracy test calculated that umpires called balls with 94.9% accuracy over the course of the season. While umpires called strikes with 86.3% accuracy. These results are displayed graphically in the “Comparison of Description vs Actual Pitch Location” chart. This tells us that overall, umpires do a good job of judging strikes and balls from behind the plate. The discrepancy in accuracy between strike and ball accuracy can be explained through the fact that balls are easier to call. For example if a pitch is thrown into the dirt or way outside the strike zone up or from left to right it is easy for an umpire to declare that pitch a ball. The strike zone is a little different in that a lot of the time pitchers are good at “painting the corners” which means they can effectively throw the ball in a place which is difficult for the batter to hit as well as making the margin between strike and ball more difficult to discern for umpires.
+The accuracy test calculated that umpires called balls with 94.9% accuracy over the course of the season. Atop this, umpires called strikes with 86.3% accuracy. Overall showing that umpires are 92.1% accurate based purely on expected call. These results are displayed graphically in the “Comparison of Description vs Actual Pitch Location” chart. This tells us that overall, umpires do a good job of judging strikes and balls from behind the plate. The discrepancy in accuracy between strike and ball accuracy can be explained through the fact that balls are easier to call. For example if a pitch is thrown into the dirt or way outside the strike zone up or from left to right it is easy for an umpire to declare that pitch a ball. The strike zone is a little different in that a lot of the time pitchers are good at “painting the corners” which means they can effectively throw the ball in a place which is difficult for the batter to hit as well as making the margin between strike and ball more difficult to discern for umpires.
 
 ![image](https://github.com/Moochelo/SEI-x-Phillies-Hackathon/assets/117478032/d1156a41-4642-4b5e-ae2c-c8f13194d64b)
+
 
 
