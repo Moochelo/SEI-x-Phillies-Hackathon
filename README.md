@@ -1,3 +1,4 @@
+[Phillies x Hackathon Presentation.pdf](https://github.com/Moochelo/SEI-x-Phillies-Hackathon/files/15191247/Phillies.x.Hackathon.Presentation.pdf)
 # SEI-x-Phillies-Hackathon
 
 Competition hosted by the Philadelphia Phillies and SEI. Goal was to make a product that would predict whether the pitch would be a strike or a ball given various categorical and numerical variables.
@@ -99,3 +100,4 @@ The accuracy test calculated that umpires called balls with 94.9% accuracy over 
 
 
 
+[Phillies x Hackathon Presentation.pdf](https://github.com/Moochelo/SEI-x-Phillies-Hackathon/files/15191250/Phillies.x.Hackathon.Presentation.pdf)
